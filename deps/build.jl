@@ -11,7 +11,7 @@ end
 
 @osx_only begin
     using Homebrew
-    provides(Homebrew.HB, "hwloc", libhwloc)
+    provides(Homebrew.HB, "Homebrew/science/hwloc", libhwloc)
 end
 
 provides(Binaries, URI("http://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-win$WORD_SIZE-build-1.11.0.zip"),
